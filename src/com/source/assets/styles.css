@@ -1,0 +1,43 @@
+/* 
+    Created on : Nov 27, 2023, 12:38:45 AM
+    Author     : SAMUN
+*/
+
+.label {
+    -fx-alignment: center-right; /* Align text to the right */
+    -fx-font-weight: bold; /* Set font weight to bold */
+    -fx-min-height: 25; /* Set the minimum height for the cell */
+    -fx-pref-height: 25; /* Set the preferred height for the cell */
+    -fx-max-height: 25; /* Set the maximum height for the cell */
+    -fx-min-width: 285;
+    -fx-max-width: 285;
+    -fx-pref-width: 285;
+}
+
+.list-view {
+    -fx-min-height: 175; /* Set the minimum height for the cell */
+    -fx-pref-height: 175; /* Set the preferred height for the cell */
+    -fx-max-height: 175; /* Set the maximum height for the cell */
+}
+
+.button {
+    -fx-pref-width: 60px;
+    -fx-pref-height: 30px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.cell-button {
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.text-field {
+    -fx-text-fill: black;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-alignment: center-right;
+}
